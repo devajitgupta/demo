@@ -1,6 +1,6 @@
 var express=require('express');
 var bodyParser=require('body-parser');
-var port=3000;
+var port=1000;
 var app=express.Router();
 var mongoose=require('mongoose');
 var userRoutes=require('user');
